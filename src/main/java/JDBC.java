@@ -14,6 +14,7 @@ public class JDBC {
             while (rs.next()){
                 System.out.println(rs.getString("Name"));
             }
+            System.out.println("今天复习IDEA连接GitHub");
             //System.out.println(conn);
         } catch (SQLException e) {
             e.printStackTrace();
